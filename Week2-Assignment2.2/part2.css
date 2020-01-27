@@ -1,0 +1,23 @@
+.outter{
+    list-style-type: upper-roman;
+}
+
+.inner{
+    list-style-type: upper-alpha;
+}
+
+.innerMost{
+    list-style-type: armenian;
+}
+
+.compact{
+    background-color: pink;
+}
+
+.midsize{
+    background-color: blue;
+}
+
+.sports{
+    background-color: red;
+}
