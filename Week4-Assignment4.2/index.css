@@ -1,0 +1,35 @@
+
+year, make, model {
+    color: red; 
+    font-size: 16pt;
+} 
+
+color {
+    display: block; 
+    margin-left: 20px; 
+    font-size: 12pt;
+} 
+
+engine, number_of_cylinders, fuel_system {
+    display: block; 
+    margin-left: 20px; 
+    font-size: 12pt;
+} 
+
+number_of_doors {
+    display: block; 
+    margin-left: 20px; 
+    font-size: 12pt;
+}
+
+transmission_type {
+    display: block; 
+    margin-left: 20px;
+}  
+
+accessories,radio, air_conditioning, power_windows, power_steering, power_brakes{
+    display: block; 
+    font-size: 12pt;
+    margin-left: 20px;
+    color: blue;
+}  
