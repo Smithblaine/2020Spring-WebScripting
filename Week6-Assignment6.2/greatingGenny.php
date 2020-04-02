@@ -7,21 +7,27 @@
 
     $number=mt_rand(0,4);
 
+    define("ZERO", "BONJOUR", true);
+    define("ONE", "HOLA", true);
+    define("TWO", "CIAO", true);
+    define("THREE", "NAMASTE", true);
+    define("FOUR", "SALAAM", true);
+
     switch ($number) {
         case 0:
-            echo "BONJOUR";
+            echo zero;
             break;
         case 1:
-            echo "HOLA";
+            echo one;
             break;
         case 2:
-            echo "CIAO";
+            echo two;
             break;
         case 3:
-            echo "NAMASTE";
+            echo three;
             break;
         case 4:
-            echo "SALAAM";
+            echo four;
             break;
     }
    }
